@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+*{background-color:black;
+    color: white;}
+
+html, body {width: 100vw;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: var(--primary);
+            color: var(--light);
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            line-height: 1.4;}
+  
+img {max-width: 100%;}
+
+header {display: inline-flex;}
+
+html{text-align: center;
+     font-family: silkscreen;
+    }
+
+
+h1 {padding-top: 60px; }
+  
+h2{color:red}
+
+/*Pseudo-class selector*/
+
+.phone::first-line{
+    background-color: black
+    color:red;
+    padding:0 5px;
+    font-size:20px;
+    text-shadow::after
+
+}
+
+
+.wrapper {margin: 0;
+          padding: 0;}
+
+          a:hover {
+            font-size: 18px;
+            color: var(--secondaryColor);
+            background-color: red;
+        }
+
+.rickandmorty {width: 289px;
+               height: 160px}
+.bigmouth{width: 289px;
+    height: 160px}
+.peakyblinders{width: 289px;
+    height: 160px}
+.thebilliondollarcode{width: 289px;
+    height: 160px}
+.theitcrowd{width: 289px;
+    height: 160px}
+.mrrobot{width: 289px;
+        height: 160px}
+.thewitcher{width: 289px;
+    height: 160px}
+.breakingbad{width: 289px;
+    height: 160px}
+.entergalactic{width: 289px;
+    height: 160px}
+.lucifer{width: 289px;
+    height: 160px}
+
+ 
